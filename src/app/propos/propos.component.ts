@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {FlipcardListComponent} from "../flipcard-list/flipcard-list.component";
 
 @Component({
   selector: 'app-propos',
