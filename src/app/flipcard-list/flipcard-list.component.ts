@@ -8,7 +8,7 @@ import { flipcards } from '../flipcards';
 })
 export class FlipcardListComponent implements OnInit {
 
-  flipcard = flipcards;
+  flipcards = flipcards;
   constructor() { }
 
   ngOnInit() {
