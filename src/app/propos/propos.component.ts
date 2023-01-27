@@ -1,16 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import {FlipcardListComponent} from "../flipcard-list/flipcard-list.component";
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-propos',
   templateUrl: './propos.component.html',
   styleUrls: ['./propos.component.css']
 })
-export class ProposComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class ProposComponent {
 
 }

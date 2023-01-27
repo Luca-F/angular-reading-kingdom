@@ -3,10 +3,12 @@
   <div class="flip-card-front">
   </div>
   <div class="flip-card-back">
-    <h1 [title]='flipcards.name'>{{flipcards.name}}</h1> 
-    <p *ngIf="flipcards.description">
+    <div *ngFor = "let flipcard of flipcards">
+    <h1 [title]='flipcard.name'>{{flipcard.name}}</h1> 
+    <p *ngIf="flipcard.description">
       {{flipcard.description}}
-    </p> 
+    </p>
+    </div> 
   </div>
 </div>
 </div>  
