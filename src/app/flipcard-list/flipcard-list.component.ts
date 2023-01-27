@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { flipcards } from '../flipcards';
 
 @Component({
@@ -6,12 +6,8 @@ import { flipcards } from '../flipcards';
   templateUrl: './flipcard-list.component.html',
   styleUrls: ['./flipcard-list.component.css']
 })
-export class FlipcardListComponent implements OnInit {
+export class FlipcardListComponent {
 
   flipcards = flipcards;
-  constructor() { }
-
-  ngOnInit() {
-  }
 
 }
