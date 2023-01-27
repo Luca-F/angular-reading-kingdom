@@ -4,7 +4,7 @@ export interface Flipcard{
   img: string;
 }
 
-export const flipcards =[
+export const FLIPCARDS =[
   {
     name:'Mira Lecocq',
     description: 'Qui es tu ?',
