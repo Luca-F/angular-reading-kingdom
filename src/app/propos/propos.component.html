@@ -10,7 +10,7 @@
   <div *ngFor="let flipcard of flipcards" class="flip-card ml-4 mb-3">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img class="btn 5rem" src="img/user.webp">
+      <img [src]="flipcard.pic"/>
     </div>
     <div class="flip-card-back">
       <h1>{{flipcard.name}}</h1> 

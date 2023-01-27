@@ -1,23 +1,23 @@
 export interface Flipcard{
   name: string;
   description: string;
-  img: string;
+  pic: string;
 }
 
 export const FLIPCARDS =[
   {
     name:'Mira Lecocq',
     description: 'Qui es tu ?',
-    img: '',
+    pic: '../../assets/batman.jpg',
   },
   {
     name:'Hugo Palazzi',
     description: 'Qui es tu ?',
-    img: '',
+    pic: '../../assets/berserk.jpg',
   },
   {
     name:'Luca Favetti',
     description: 'Qui suis je?',
-    img: '',
+    pic: '../../assets/batman.jpg',
   },
 ]
