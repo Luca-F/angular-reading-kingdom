@@ -1,0 +1,22 @@
+<h2 class="text-center">A propos de nous</h2>
+<p>Ce projet a été réalisé par une équipe de 3 ingénieurs en formation. Il a été réalisé en 3 mois, le but étant la mise en pratique</p><br>
+<p>des différens language de programmation et leurs méthodes vue lors de la formation. Nous sommes fiers du résultat obtenue et souhaitons</p><br>
+<p>continuer à l'améliorer afin que notre site puisse être mis à la disposition de tous.</p><br>
+<a>Qui somme nous ?</a><br>
+
+ 
+<div class="container-fluid" > 
+  <div class="row justify-content-center">
+  <div *ngFor="let flipcard of flipcards" class="flip-card ml-4 mb-3">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img class="btn 5rem" src="img/user.webp">
+    </div>
+    <div class="flip-card-back">
+      <h1>{{flipcard.name}}</h1> 
+      <p>{{flipcard.description}}</p> 
+    </div>
+  </div>
+</div>  
+  </div>
+</div>    
